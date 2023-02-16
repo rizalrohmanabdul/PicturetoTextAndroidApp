@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "882451965159",
+    "project_id": "picture-to-text-app",
+    "storage_bucket": "picture-to-text-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882451965159:android:a77ec52aced16399d8ae42",
+        "android_client_info": {
+          "package_name": "com.rizal.picture_to_textapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882451965159-6b5cqs05regieafrv3rg4ocf9cqmp5vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF5kufH3rQfANYj-zWYIYQbGH0f1kOHeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882451965159-6b5cqs05regieafrv3rg4ocf9cqmp5vn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
