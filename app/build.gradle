@@ -43,6 +43,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.0.0'
     implementation 'com.google.firebase:firebase-firestore:23.0.0'
     implementation 'com.google.android.gms:play-services-maps:18.0.0'
+    implementation 'com.google.maps:google-maps-services:2.1.2'
     implementation 'com.google.android.gms:play-services-location:18.0.0'
     implementation 'com.rmtheis:tess-two:9.1.0'
     implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.0.0'
