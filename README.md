@@ -40,7 +40,7 @@ This Android app allows users to take a picture of printed text, convert the wor
 - Confirm that the app has correctly calculated the distance and estimated time.
 - Upload the written text, distance, and estimated time to Firebase.
 - Navigate to the second screen to show the written text, distance, and estimated time in the form of editable text.
--
+- [![Watch the video]()](https://github.com/rizalrohmanabdul/PicturetoTextAndroidApp/blob/main/demo/WhatsApp%20Video%202023-02-17%20at%2012.13.53.mp4)
 
 
 ## Contributing
