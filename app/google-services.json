@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "882451965159",
+    "firebase_url": "https://picture-to-text-app-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "picture-to-text-app",
     "storage_bucket": "picture-to-text-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:882451965159:android:a77ec52aced16399d8ae42",
+        "mobilesdk_app_id": "1:882451965159:android:ac6b5bac0481f685d8ae42",
         "android_client_info": {
           "package_name": "com.rizal.picture_to_textapp"
         }

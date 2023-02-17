@@ -2,29 +2,65 @@
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginHorizontal="16dp"
         android:gravity="center">
 
         <TextView
-            android:id="@+id/textViewText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Result Description"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/black"
+            android:text="Result From Image" />
+
+        <EditText
+            android:id="@+id/textViewText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/edit_text_bg"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
 
         <TextView
-            android:id="@+id/textViewDistance"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:text="Distance From Location To Plaza Indonesia" />
+
+        <EditText
+            android:id="@+id/textViewDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/edit_text_bg"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
         <TextView
-            android:id="@+id/textViewDuration"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:text="Time" />
+
+        <EditText
+            android:id="@+id/textViewDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bg"
+            android:textColor="@color/black"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
     </LinearLayout>
